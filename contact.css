@@ -1,0 +1,78 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.icon{
+	background-image: url(lion.jfif);
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	height: 110px;
+	align-content:space-between;
+	position:relative ;
+	top: 0px;
+
+
+
+}
+ .icon p{
+background-color:blue ;
+height: 0px;
+position:relative	 ;
+top: 80px;
+left:200;
+align-items: left;
+}
+   .icon a{
+background-color:white ;
+height: 200px;
+width: 200px;
+margin: 0 10px;
+border-radius: 8px;
+justify-content: center;
+text-decoration:none ;
+size: 300px;
+box-shadow: 6px 6px 10px -1px rgb(0, 0, 0.15),
+-6px -6px 10px -1px rgb(255,255,0.7);
+
+transition:transform 0.5s ;
+
+
+}
+.icon a i {
+	font-size: 35px;
+	color:#777 ;
+	transition: transform 0.5s;
+}
+ .icon a:hover
+ {
+ 	box-shadow:inset 4px 4px 10px -1px rgb(0, 0, 0, 0.2),
+inset -4px -4px 6px -1px rgb(255,255, 255,0.7),
+-0.5px -0.5px  0px rgb(255,255, 255,1),
+-0.5px 0.5px 0px  rgb(0,0, 0,0.15),
+0px 12px 10px  rgb(255,255, 255,0.5);
+
+transform: translate(2px);
+
+ }
+ .icon a:hover i{
+ 	transform:scale(0.90) ;
+ }
+
+  .icon a :hover.fa-facebook{
+  	color: blue;
+  }
+  .icon a:hover .fa-youtube{
+  	color:darkred;
+  }
+  .icon a:hover .fa-twitter{
+  	color: red;
+  }
+  .icon a:hover .fa-whatsapp{
+  	color: green;
+  }
+
+
+
